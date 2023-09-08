@@ -2,9 +2,10 @@ Author: Sunghwan Baek
 Version: 3.5
 Date: August 10th, 2023
 
-In this public link, I only included main.py which has the Tkinter user interface algorithm.
-Since I worked with Professor Bain, I can't make all the code in public.
+I only included main.py in this public link, which has the Tkinter user interface algorithm.
+Since this project is under the guidance of Professor Bain, I can't make all the code publicly.
 I have a separate private link, but you will need an invitation.
+
 Almost every variable can be controlled by the 'main.py' file.
 
 I made a Tkinter user interface, and by clicking the 'save' buttons, settings can be saved. 
