@@ -3,6 +3,9 @@
 - **Author**: Sunghwan Baek
 - **Version**: 3.5
 - **Date**: August 10th, 2023
+- This is a public version of the Ansys project; I only uploaded README.md, main.py, README.tx, ppt files, and images files.
+- You need to get an invitation from me to see the private link with the full algorithms I developed
+- The private link: 
 
 
 ## 🎯 Project Objective
