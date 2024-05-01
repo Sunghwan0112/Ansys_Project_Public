@@ -10,7 +10,7 @@
 
 ## 🎯 Project Objective
 The primary objective of this project is to construct a structure made of gold, AlGaAs, and GaAs. The project focused on gathering loss data from the GaAs waveguide, varying vertical and horizontal gaps. The ultimate aim is to meticulously identify and establish the optimal vertical and horizontal gap parameters that result in minimal loss. 
-![Alt text for your image](./images/Help_Image_with_block.png)
+!Help Image(./images/Help_Image_with_block.png)
 
 ## 📌 The Importance of the Project
 The project simplifies repetitive tasks based on user requirements. Through a Tkinter interface, users can easily design and monitor block simulations. It integrates Python with Ansys software and utilizes algorithms to optimize the mode. Various libraries are also incorporated to enhance the Ansys user experience. All operations are executed in Python, allowing developers to review the code and tailor the algorithm to their specific requirements.
