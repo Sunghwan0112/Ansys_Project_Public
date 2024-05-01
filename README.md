@@ -10,7 +10,7 @@
 
 ## 🎯 Project Objective
 The primary objective of this project is to construct a structure made of gold, AlGaAs, and GaAs. The project focused on gathering loss data from the GaAs waveguide, varying vertical and horizontal gaps. The ultimate aim is to meticulously identify and establish the optimal vertical and horizontal gap parameters that result in minimal loss. 
-![Alt text for your image](./images/Help_Image_with_block.png)
+![Help_Image_with_block](./images/Help_Image_with_block.png)
 
 ## 📌 The Importance of the Project
 The project simplifies repetitive tasks based on user requirements. Through a Tkinter interface, users can easily design and monitor block simulations. It integrates Python with Ansys software and utilizes algorithms to optimize the mode. Various libraries are also incorporated to enhance the Ansys user experience. All operations are executed in Python, allowing developers to review the code and tailor the algorithm to their specific requirements.
@@ -19,19 +19,19 @@ The project simplifies repetitive tasks based on user requirements. Through a Tk
 ## 🛠 Configuration
 
 A user-friendly Tkinter interface lets you control almost every variable through the `main.py` file.
-![Alt text for your image](./images/Tkinter_interface.png)
+![Tkinter_interface](./images/Tkinter_interface.png)
 
 ### 💡 Main Algorithms:
 
 - **Mode Selector**:
   
-   ![Alt text for your image](./images/Mode_selector.png)
+   ![Mode_selector](./images/Mode_selector.png)
    - The blue arrow's direction represents the mode referencing direction. The start point of the arrow indicates where the algorithm references the mode from. The data from the previous row or column mode are used to find the current set of modes, and I programmed the algorithm to save the best overlap mode of the last mode to the d-card for the subsequent mode finding.
 
 
 - **Smart Grid**:
   
-   ![Alt text for your image](./images/smart_grid.png)
+   ![smart_grid](./images/smart_grid.png)
    - Since I used setting.py variables to control the structures, making a computationally efficient gird area to calculate modes was possible. If the grid area gets bigger, it would be more accurate in terms of loss calculation, but also it gets computationally heavy. Therefore, I could secure accuracy and computational power using the smart grid.
 
 
@@ -42,14 +42,14 @@ A user-friendly Tkinter interface lets you control almost every variable through
 ## 📊 Graph Details
 1. 
 
-   ![Alt text for your image](./images/Original_loss.png)
+   ![Original_loss](./images/Original_loss.png)
    - Reflects the loss when no electric field is applied.
    - AlGaAs and GaAs refractive indices aren't influenced by the electro-optic effect.
 
      
 2.  
 
-  ![Alt text for your image](./images/Bias_loss.png)    
+  ![Bias_loss](./images/Bias_loss.png)    
   - Reflects the loss when the electric field is applied.
   - Demonstrates the loss with the electro-optic effect in play.
   - Electric fields alter AlGaAs and GaAs refractive indices due to this effect.
@@ -57,13 +57,13 @@ A user-friendly Tkinter interface lets you control almost every variable through
     
 3. 
   
-  ![Alt text for your image](./images/VpiL.png)    
+  ![VpiL](./images/VpiL.png)    
   - Represents Vpil derived from the difference between Original and Bias Losses.
 
     
 4. 
   
-  ![Alt text for your image](./images/Insertion_loss.png)    
+  ![Insertion_loss](./images/Insertion_loss.png)    
   - The crucial loss metric we're focusing on (measured in dB).
   - Derived using the Bias Loss and Vpil.
 
